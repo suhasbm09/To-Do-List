@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1a1a1a;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.to-do-interface {
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.to-do-head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    color: crimson;
+    padding: 4px;
+}
+#to-do-input {
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: #1a1a1a;
+    color: white;
+}
+input::placeholder {
+    color: greenyellow;
+    opacity: 0.5;
+}
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+}
+button:hover {
+    background-color: red;
+}
+ul {
+    list-style-type: none;
+    padding: 2px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #1a1a1a;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
